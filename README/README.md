@@ -2,14 +2,17 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![unit 12 hw](https://user-images.githubusercontent.com/70101639/110222348-33d9b800-7e97-11eb-8959-cb71aebe953a.jpg)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
-  - install-elk.yml
+  - yml and config
   - https://drive.google.com/file/d/1xq_S9uqWAepGOQbm7_1uUDlSj01lN97A/view?usp=sharing
-  - pdf: ![image](https://user-images.githubusercontent.com/70101639/110221045-713a4780-7e8f-11eb-84da-206db0478fff.png)
+  - pdf:https://drive.google.com/file/d/1cr6ovVH5s8UcF5Wy7uSEMlawiVezk1ov/view?usp=sharing
+  - [ansible config playbook.txt](https://github.com/Livingstonuzoma/RBC13P/files/6096219/ansible.config.playbook.txt)
+  - [ansible config.txt](https://github.com/Livingstonuzoma/RBC13P/files/6096220/ansible.config.txt)
 
 
 
@@ -26,7 +29,7 @@ This document contains the following details:
 Jump-box-provisioner/ Ansible
 Web-1/ DVWA
 Web-2/ DVWA
-ELK-VM/ 
+ELK-VM
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
