@@ -9,6 +9,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _TODO: Enter the playbook file._
   - install-elk.yml
   - https://drive.google.com/file/d/1xq_S9uqWAepGOQbm7_1uUDlSj01lN97A/view?usp=sharing
+  - pdf: ![image](https://user-images.githubusercontent.com/70101639/110221045-713a4780-7e8f-11eb-84da-206db0478fff.png)
+
 
 
 This document contains the following details:
