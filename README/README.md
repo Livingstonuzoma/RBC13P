@@ -42,7 +42,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - _TODO: What does Filebeat watch for?_
   _TODO: What does Metricbeat record?
 - Filebeat collects data from the log files or locations that you specify, collects log events, and forwards them to either  Elasticsearch or an output pf your choice for indexing/storing
--Metricbeat takes the metrics and statistics that collects and ships them to the output you specify
+- Metricbeat takes the metrics and statistics that collects and ships them to the output you specify
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -94,10 +94,11 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring.
-*13.83.84.101/10.1.0.4
-13.83.84.101/10.1.0.6
-40.83.210.207/10.1.0.5
-10.0.0.4
+
+- 13.83.84.101/10.1.0.4
+- 13.83.84.101/10.1.0.6
+- 40.83.210.207/10.1.0.5
+- 10.0.0.4
 
 
 We have installed the following Beats on these machines:
@@ -106,6 +107,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc. 
+
 * Filebeat collects data from the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing/storing.<img width="1266" alt="file beat example" src="https://user-images.githubusercontent.com/70101639/110215883-b2236380-7e71-11eb-9b6f-4d3c351ec9bc.png">
 
 
@@ -118,10 +120,10 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? /etc/ansible/files/filebeat-configuration.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
-*
-you update the /etc/ansible/host file to add the host used on the specific machine (webservers/elk). To differentiate when in the host file after adding the specfic host group underneath you would specify the machine private ip adreess.
+- _Which file is the playbook? Where do you copy it?  /etc/ansible/files/filebeat-configuration.yml
+- _Which file do you update to make Ansible run the playbook on a specific machine?  How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+
+*you update the /etc/ansible/host file to add the host used on the specific machine (webservers/elk). To differentiate when in the host file after adding the specfic host group underneath you would specify the machine private ip adreess.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://40.88.131.93:5601/ The only thing changing being the ip address which is specific to your elkservers pub. ip-adress
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
