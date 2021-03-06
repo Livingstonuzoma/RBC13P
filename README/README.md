@@ -26,10 +26,10 @@ This document contains the following details:
 
 ### Virtual Machines
 
-Jump-box-provisioner/ Ansible
-Web-1/ DVWA
-Web-2/ DVWA
-ELK-VM
+- Jump-box-provisioner/ Ansible
+- Web-1/ DVWA
+- Web-2/ DVWA
+- ELK-VM
 ### Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
